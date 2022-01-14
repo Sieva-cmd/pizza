@@ -1,0 +1,56 @@
+.navbar{
+    
+    background-color: #F5F5F5;
+}
+.navbar ul li a{
+    color: black;
+}
+#cart{
+    background-color:#F5F5F5;
+}
+/* .welcomeText{
+    text-align: center;
+    margin-top: 150px;
+   
+   
+    
+}
+.welcomeText h1,h3, button{
+    padding: 5px;
+} */
+
+
+
+
+
+/* @media only screen
+and (min-width: 360px) {
+
+}
+@media only screen
+and (min-width: 414px){
+
+
+}
+@media  only screen 
+and(min-width: 540px){
+   
+
+}
+
+@media  only screen 
+and(min-width: 768px){
+
+    
+}
+@media screen 
+and (min-width:1024px)
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1){
+    .navbar{
+        margin-left: -90px;
+        margin-right: -90px;
+    }
+
+} */
