@@ -29,7 +29,7 @@ body {
     width: 150px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(106, 106, 233);
+    background-color: rgb(58,110,253);
     margin-bottom: 50px;
 }
 
@@ -58,6 +58,9 @@ body {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.popup{
+    display: none;
 }
 
 

@@ -47,6 +47,61 @@
                     <h1>Pizza Lounge</h1>
                     <h3>A Touch Of Sweetness</h3>
                     <button id="orderBtn">Order Now</button>
+                    <div class="popup container">
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <br>
+                                <form id="form" style="margin-left: 300px;"> <br>
+                                    <div class="close_btn" style="margin-left: 400px; cursor: pointer;"> &times;</div>
+                                    <h5>Order your Pizza</h5>
+                                    <label for="exampleFormControlFile1">Choose pizza Size</label>
+                                    <select class="form-control form-control-lg">
+                                        <option>Small Pizza</option>
+                                        <option>Medium pizza</option>
+                                        <option>Large Pizza</option>
+                                    </select> <br> <br>
+                
+                                    <label for="exampleFormControlFile1">Choose pizza crust</label>
+                                    <select class="form-control form-control-lg">
+                                        <option>Crispy</option>
+                                        <option>Stuffed</option>
+                                        <option>Gluten-free</option>
+                                    </select> <br> <br>
+                                    <label for="exampleFormControlFile1">Choose pizza Toppings</label>
+                                    <select class="form-control form-control-lg">
+                                        <option>Sausage</option>
+                                        <option>Bacon</option>
+                                        <option>Extra cheese</option>
+                                        <option>Onions</option>
+                                        <option>Mushrooms</option>
+                                    </select> <br>
+                                    <label for="exampleFormControlFile1">Would you Request for Delivery</label>
+                                    <select class="form-control form-control-lg">
+                                        <option>Yes</option>
+                                        <option>No</option>
+                
+                                    </select> <br>
+                
+                
+                                    <Button type="submit" id="add"> Add another pizza</Button>
+                                    <button type="submit" id="order">Order</button>
+                
+                                </form> <br>
+                                <Div id="showDetails" style="margin-left: 300px;">
+                                    <h5>cost of the pizza:</h5>
+                                    <ul id="pizzaCost"></ul> <br>
+                
+                
+                
+                                    <h5>Total cost:</h5>
+                                    <ul id="totalCost"></ul> <br>
+                                </Div>
+                
+                
+                            </div>
+                        </div>
+                    </div>
 
                 </Div>
                 <Div class=" three container">
