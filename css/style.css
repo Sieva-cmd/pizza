@@ -8,22 +8,20 @@
 #cart{
     background-color:#F5F5F5;
 }
-/* .welcomeText{
+.welcomeText{
     text-align: center;
     margin-top: 150px;
-   
-   
-    
+    background-image: url("images/background.png");  
 }
 .welcomeText h1,h3, button{
     padding: 5px;
-} */
+}
 
 
 
 
 
-/* @media only screen
+@media only screen
 and (min-width: 360px) {
 
 }
@@ -53,4 +51,4 @@ and (-webkit-min-device-pixel-ratio: 1){
         margin-right: -90px;
     }
 
-} */
+}
