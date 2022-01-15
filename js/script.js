@@ -30,6 +30,8 @@ $(document).ready(function () {
         var inputtedCrust = $('#crust').val();
         var inputtedNumber = parseInt( $('#number').val());
         var inputtedDelivery = $('#delivery').val();
+
+        var fullPizza = new Pizza(inputtedSize, inputtedToppings, inputtedCrust, inputtedNumber, inputtedDelivery); 
         
 
 
