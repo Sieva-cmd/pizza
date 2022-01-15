@@ -32,6 +32,14 @@ $(document).ready(function () {
         var inputtedDelivery = $('#delivery').val();
 
         var fullPizza = new Pizza(inputtedSize, inputtedToppings, inputtedCrust, inputtedNumber, inputtedDelivery); 
+
+        if (fullPizza.size == "small"){
+            priceSizes = 500;
+        } else if(fullPizza.size == "medium"){
+            priceSizes = 1000;
+        } else {
+            priceSizes = 1500;
+        }
         
 
 
