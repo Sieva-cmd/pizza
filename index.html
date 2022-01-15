@@ -52,11 +52,12 @@
             <div class="row">
               <div class="col-md-10">
                 <br>
-                <form id="form" style="margin-left: 200px;"> <br>
-                  <div class="close_btn" style="margin-left: 400px; cursor: pointer;"> &times;</div>
+                <!-- style="margin-left: 200px;" -->
+                <form id="form" style="background-color: #E8E9EC;"> <br>
+                  <div class="close_btn" style="margin-bottom: 30px; cursor: pointer;"> close &times;</div>
                   <h5>Order your Pizza</h5>
                   <label for="exampleFormControlFile1">Choose pizza Size</label>
-                  <select class="form-control form-control-lg" id="size">
+                  <select class="form-control form-control-lg" id="size" >
                     <option value="small">Small Pizza</option>
                     <option value="medium">Medium pizza</option>
                     <option value="large">Large Pizza</option>
@@ -85,12 +86,13 @@
 
 
                   <label for="">Number of pizzas</label>
-                  <input type="number" name="number" id="number">
+                  <input type="number" name="number" id="number" style="width: 50%;">
                   <button type="submit" id="order">checkout</button>
 
 
                 </form> <br>
-                <Div id="showDetails" style="margin-left: 300px;">
+                <!-- style="margin-left: 300px;" -->
+                <Div id="showDetails" >
                   <p>we have received your order. You have ordered <span id="num"></span> pizza with <span
                       id="top"></span> topping and <span id="crts"></span> crust </p>
                   <p>Your total price is <span id="price"></span></p>
