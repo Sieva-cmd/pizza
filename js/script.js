@@ -67,6 +67,7 @@ $(document).ready(function () {
                 deliveryCost = 200;  
                 alert( " Delivery cost is " + deliveryCost);
                 var location = prompt("Please indicate your location");
+                alert("your order will be delivered to " + location);
             }
         
 
