@@ -66,6 +66,7 @@ $(document).ready(function () {
             if(fullPizza.delivery == "yes"){
                 deliveryCost = 200;  
                 alert( " Delivery cost is " + deliveryCost);
+                var location = prompt("Please indicate your location");
             }
         
 
