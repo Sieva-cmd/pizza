@@ -60,6 +60,8 @@ $(document).ready(function () {
             } else {
                 toppingsPrice = 140;
             }
+
+            totalPrice =(priceSizes + crustPrice + toppingsPrice)*inputtedNumber;
         
 
 
