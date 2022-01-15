@@ -48,6 +48,18 @@ $(document).ready(function () {
             } else {
                 crustPrice = 200;
             }
+
+            if (fullPizza.topping == "sausage"){
+                toppingsPrice = 100;
+            } else if( fullPizza.topping == "bacon"){
+                toppingsPrice = 110;
+            } else if (fullPizza.topping == "extra-cheese"){
+                toppingsPrice = 120;
+            } else if(fullPizza.topping == "onions"){
+                toppingsPrice = 130;
+            } else {
+                toppingsPrice = 140;
+            }
         
 
 
