@@ -57,45 +57,43 @@
                                     <h5>Order your Pizza</h5>
                                     <label for="exampleFormControlFile1">Choose pizza Size</label>
                                     <select class="form-control form-control-lg" id="size">
-                                        <option>Small Pizza</option>
-                                        <option>Medium pizza</option>
-                                        <option>Large Pizza</option>
+                                        <option value="small">Small Pizza</option>
+                                        <option value="medium">Medium pizza</option>
+                                        <option value="large">Large Pizza</option>
                                     </select> <br> <br>
                 
                                     <label for="exampleFormControlFile1">Choose pizza crust</label>
                                     <select class="form-control form-control-lg" id="crust">
-                                        <option>Crispy</option>
-                                        <option>Stuffed</option>
-                                        <option>Gluten-free</option>
+                                        <option value="cripsy">Crispy</option>
+                                        <option  value="stuffed">Stuffed</option>
+                                        <option value="glutten-free">Gluten-free</option>
                                     </select> <br> <br>
                                     <label for="exampleFormControlFile1">Choose pizza Toppings</label>
                                     <select class="form-control form-control-lg" id="toppings">
-                                        <option>Sausage</option>
-                                        <option>Bacon</option>
-                                        <option>Extra cheese</option>
-                                        <option>Onions</option>
-                                        <option>Mushrooms</option>
+                                        <option value="sausage">Sausage</option>
+                                        <option value="bacon">Bacon</option>
+                                        <option value="extra-cheese">Extra cheese</option>
+                                        <option value="onions">Onions</option>
+                                        <option value="mushrooms">Mushrooms</option>
                                     </select> <br>
                                     <label for="exampleFormControlFile1">Would you Request for Delivery</label>
-                                    <select class="form-control form-control-lg">
-                                        <option>Yes</option>
-                                        <option>No</option>
+                                    <select class="form-control form-control-lg" id="delivery">
+                                        <option value="yes">Yes</option>
+                                        <option value="no">No</option>
                 
                                     </select> <br>
                 
                 
-                                    <Button type="submit" id="add"> Add another pizza</Button>
-                                    <button type="submit" id="order">Order</button>
+                                    <label for="">Number of pizzas</label>
+                                    <input type="number" name="number" id="number">
+                                    <button type="submit" id="order">checkout</button>
+                                  
                 
                                 </form> <br>
                                 <Div id="showDetails" style="margin-left: 300px;">
-                                    <h5>cost of the pizza:</h5>
-                                    <ul id="pizzaCost"></ul> <br>
-                
-                
-                
-                                    <h5>Total cost:</h5>
-                                    <ul id="totalCost"></ul> <br>
+                                    <p>we have received your order. You have ordered <span id="num"></span> pizza with <span id="top"></span> topping and <span id="crts"></span> crust </p>
+                                    <p>Your total price is <span id="price"></span></p>
+                                    <p id="loc">Your order will be delivered to <span id="location"> </span></p>
                                 </Div>
                 
                 
@@ -105,24 +103,24 @@
 
                 </Div>
                 <Div class=" three container">
-                    <Div id="PizzaSizes">
+                    <Div id="PizzaSizes">   
                         <h3>Pizza Sizes</h3>
                     </Div>
                     <Div class=" pizzas row">
                         <Div class="col-md-3">
                             <img class="img-fluid" src="images/small_pizza.png" id="cart" alt="Responsive image"
                                 style="background-color: #E8E9EC;">
-                            <small> Small pizza ksh 800 </small>
+                            <small> Small pizza  </small>
 
                         </Div>
                         <Div class="col-md-3">
                             <img class="img-fluid" src="images/mediumpizza.jpg" id="cart" alt="Responsive image">
-                            <small> medium pizza ksh 1200 </small>
+                            <small> medium pizza  </small>
 
                         </Div>
                         <Div class="col-md-3">
                             <img class="img-fluid" src="images/large.jpg" id="cart" alt="Responsive image">
-                            <small>Lager pizza ksh 1500</small>
+                            <small>Lager pizza</small>
 
                         </Div>
                     </Div>

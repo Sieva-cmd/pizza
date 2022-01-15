@@ -62,7 +62,9 @@ body {
 .popup{
     display: none;
 }
-
+#showDetails{
+    display: none;
+}
 
 
 
