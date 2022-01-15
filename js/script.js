@@ -72,6 +72,9 @@ $(document).ready(function () {
                 deliveryCost = 0;
                 $("#loc").hide();
             }
+
+            var totalCost = totalPrice + deliveryCost;
+
         
 
 
