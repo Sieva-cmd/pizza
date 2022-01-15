@@ -29,7 +29,7 @@ body {
     width: 150px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(58,110,253);
+    background-color: rgb(58, 110, 253);
     margin-bottom: 50px;
 }
 
@@ -59,25 +59,20 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.popup{
+
+.popup {
     display: none;
 }
-#showDetails{
+
+#showDetails {
     display: none;
 }
 
 
 
-@media only screen and (min-width: 360px) {
-  
-   
+@media only screen and (min-width: 360px) {}
 
-}
-
-@media only screen and (min-width: 414px) {
-   
-
-}
+@media only screen and (min-width: 414px) {}
 
 @media only screen and(min-width: 540px) {}
 
