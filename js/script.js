@@ -62,6 +62,10 @@ $(document).ready(function () {
             }
 
             totalPrice =(priceSizes + crustPrice + toppingsPrice)*inputtedNumber;
+
+            if(fullPizza.delivery == "yes"){
+                deliveryCost = 200;  
+            }
         
 
 
