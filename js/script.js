@@ -40,6 +40,14 @@ $(document).ready(function () {
         } else {
             priceSizes = 1500;
         }
+
+        if(fullPizza.crust == "cripsy"){
+            crustPrice = 100;
+            } else if(fullPizza.crust == "stuffed"){
+                crustPrice = 150;
+            } else {
+                crustPrice = 200;
+            }
         
 
 
