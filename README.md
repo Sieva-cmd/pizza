@@ -7,10 +7,10 @@
 pizza website is a website that helps customers to order their pizzas at the comfort of their home
 
 ## website image
-![Website image]()
+![Website image](https://github.com/Sieva-cmd/pizza/blob/master/images/project_image_1.png)
 
 ## Order form
-![Website image]()
+![Website image](https://github.com/Sieva-cmd/pizza/blob/master/images/order_form.png)
 
 ## set up instructions
 -  Go to  Github  using the Link provided.
