@@ -57,7 +57,7 @@
                   <div class="close_btn" style="margin-bottom: 30px; cursor: pointer;"> close &times;</div>
                   <h5>Order your Pizza</h5>
                   <label for="exampleFormControlFile1">Choose pizza Size</label>
-                  <select class="form-control form-control-lg" id="size" >
+                  <select class="form-control form-control-lg" id="size">
                     <option value="small">Small Pizza</option>
                     <option value="medium">Medium pizza</option>
                     <option value="large">Large Pizza</option>
@@ -92,7 +92,7 @@
 
                 </form> <br>
                 <!-- style="margin-left: 300px;" -->
-                <Div id="showDetails" >
+                <Div id="showDetails">
                   <p>we have received your order. You have ordered <span id="num"></span> pizza with <span
                       id="top"></span> topping and <span id="crts"></span> crust </p>
                   <p>Your total price is <span id="price"></span></p>
@@ -110,20 +110,20 @@
             <h3>Pizza Sizes</h3>
           </Div>
           <Div class=" pizzas row">
-            <Div class="col-md-3">
+            <Div class="col-md-3" id="small">
               <img class="img-fluid" src="images/small_pizza.png" id="cart" alt="Responsive image"
                 style="background-color: #E8E9EC;">
-              <small> Small pizza </small>
+              <small id="caption-one"> Small pizza </small>
 
             </Div>
-            <Div class="col-md-3">
+            <Div class="col-md-3" id="medium">
               <img class="img-fluid" src="images/mediumpizza.jpg" id="cart" alt="Responsive image">
-              <small> medium pizza </small>
+              <small id="caption_two"> medium pizza </small>
 
             </Div>
-            <Div class="col-md-3">
+            <Div class="col-md-3" id="large">
               <img class="img-fluid" src="images/large.jpg" id="cart" alt="Responsive image">
-              <small>Lager pizza</small>
+              <small id="caption">Lager pizza</small>
 
             </Div>
           </Div>

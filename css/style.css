@@ -81,12 +81,23 @@ body {
 
 
 @media only screen and (min-width: 360px) {
-
+#caption{
+    display: block;
+}
 }
 
-@media only screen and (min-width: 414px) {}
+@media only screen and (min-width: 414px) {
+    #caption-one, #caption_two, #caption{
+        margin-left: 80px;
+    }
 
-@media only screen and(min-width: 540px) {}
+  }
+
+@media only screen and(min-width: 540px) {
+    .col-md-4{
+        margin: 20px;
+    }
+}
 
 @media only screen and(min-width: 768px) {}
 
@@ -94,6 +105,14 @@ body {
     .navbar {
         margin-left: -90px;
         margin-right: -90px;
+    }
+
+    #small, #large, #medium{
+        display: block;
+    }
+
+    #caption-one, #caption_two, #caption{
+        margin-left: 80px;
     }
 
 }
